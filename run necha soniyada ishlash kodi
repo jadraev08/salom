@@ -1,0 +1,22 @@
+
+import time
+from functools import wraps
+
+def vaqt_olchov(funk):
+    @wraps(funk)
+    def wrapper(*args, **kwargs):
+      start=time.time()
+      natija=funk(*args, **kwargs)
+      tugadi=time.time()
+      print(f"Funksiya{tugadi-start:4f}soniyada bajarildi.")
+      return natija
+    return wrapper
+
+@vaqt_olchov
+def hisobla():
+    s=0
+    for i in range(10_000_000):
+        s+=i
+    return s
+
+print(hisobla())
