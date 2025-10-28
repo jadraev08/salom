@@ -1,0 +1,143 @@
+#
+# data={'name':'atabek','age':17,'addrees':'yuqori chirchiq'}
+# matn=f"mening ismim {data['name'].title()} yoshim {data['age']}da manzilim {data['addrees'].title()}"
+# print(matn)
+# #
+
+#
+# name=input('ismingiz:')
+# age=input('yoshingiz:')
+# adress=input('manzilingiz:')
+# data={'name':name,'age':int(age),'addrees':adress}
+# print(data)
+
+#
+# my_about={
+#     'name':'otabek',
+#     'hobby':'insta',
+#     'free':'pubg stream',
+#     'school':'11',
+#     'hunar':"koreys tili",
+#     'car':'onix',
+# # 'car':mashina ,
+# #     mashina;masahina,
+#     'mashina':'matiz',
+# 2:'ikki',
+# 3.4:'yarmtali',
+# True:'yaxshi',
+# # [1,2]:'bu lisyt'   list key bolishi mumkin emas
+#     (1.2):'bu tuple',
+# # {1,2}:'bu set'     set key bolmaydi
+# }
+# print(my_about['mashina'].upper())
+# # # print(my_about)
+# # print(my_about['name'])
+# print(my_about['free'])
+# print(my_about['school'])
+
+#
+
+#
+# group={
+#         'count':10,
+#         'ages':4,
+#
+#
+#         }
+# group['count']=7
+# group['lesson']='juft'
+# print(group.get('lessonf','bunday kalit yoq'))
+# print(group)
+
+
+#
+# name=input('ism familiyangizni toliq yozing:')
+# jop=input('kasbingiz nima?')
+# adreas=input('yashash manzilingizni yozing:')
+# data={'name':name,'jop':jop,'adreas':adreas,}
+# # data=json.dumps(data)
+# print(data)
+#
+#
+# bal=input('balingizni yozing:')
+# bal=int(bal)
+# if bal<65:
+#     print('siz yiqildingiz')
+#     if bal>65:
+#         print('topshirdingiz')
+
+
+
+
+# my_about={
+#     'name':'otabek',
+#     'hobby':'insta',
+#     'free':'pubg stream',
+#     'school':'11',
+#     'hunar':"koreys tili",
+#     'car':'onix',
+# # 'car':mashina ,
+# #     mashina;masahina,
+#     'mashina':'matiz',
+# 2:'ikki',
+# 3.4:'yarmtali',
+# True:'yaxshi',
+# # [1,2]:'bu lisyt'   list key bolishi mumkin emas
+#     (1.2):'bu tuple',
+# # {1,2}:'bu set'     set key bolmaydi
+# }
+# print(my_about['hobby'].upper())
+# # print(my_about)
+# print(my_about['name'])
+# print(my_about['free'])
+# print(my_about['school'])
+
+#
+
+# my_about={
+#     'name':'otabek',
+#     'hobby':'insta',
+#     'free':'pubg stream',
+#     'school':'11',
+#     'hunar':"koreys tili",
+#     'car':'onix',
+# # 'car':mashina ,
+# #     mashina;masahina,
+#     'mashina':'matiz',
+# 2:'ikki',
+# 3.4:'yarmtali',
+# True:'yaxshi',
+# # [1,2]:'bu lisyt'   list key bolishi mumkin emas
+#     (1.2):'bu tuple',
+# # {1,2}:'bu set'     set key bolmaydi
+# }
+# print(my_about['hobby'].upper())
+# # print(my_about)
+# print(my_about['name'])
+# print(my_about['free'])
+# print(my_about['school'])
+
+#
+
+groups=['otabek','azamjon','elshodbek','mahmudjon','ulugbek','muhriddin','davron','shoxrux','mamura']
+
+
+baholar={}
+for student in groups:
+    baho=input(f'{student} bahosi nechchi:')
+    baholar[student]=baho
+
+    print(baholar)
+
+
+#
+#
+# info=['name','age','adrees','hobby']
+# for info in info:
+#     info=input(f'{info}:')
+#     print(info)
+#
+#
+
+
+
