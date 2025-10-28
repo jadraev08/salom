@@ -1,0 +1,53 @@
+
+
+def mark_student(students):
+    baholash = dict()
+    while students:
+        mashka = students.pop()
+        baho = int(input(f"{mashka}ning bahosi nechi"))
+        baholash[mashka] = baho
+    vals = list()
+    for b in baholash:
+        vals.append(baholash[b])
+    big_nums = max(vals)
+    for i, b in baholash.items():
+        if b == big_nums:
+            print(i, b)
+
+
+ninza = ['muha', 'david', 'azik', 'eltn']
+mark_student(ninza)
+
+
+
+
+
+
+
+#random orqali oyin yaratish
+
+
+
+
+import random
+
+towards=['center','right','left']
+
+while True:
+    goal_keeper=random.choice(towards)
+    elshod=input(f'{towards} exit:')
+    if elshod=='exit':
+        break
+    if not elshod in towards:
+        print(f"Faqat {towards} shu tomonlarga teping")
+        continue
+
+    if elshod==goal_keeper:
+        print(f"Siz {elshod} tomonga tepdingiz varata ham {goal_keeper} tomonga sakradi")
+        print('Ne goal')
+    else:
+
+        print(f"Siz {elshod} tomonga tepdingiz varata esa {goal_keeper} tomonga sakradi")
+        print('Goal')
+
+
