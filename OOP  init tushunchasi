@@ -1,0 +1,57 @@
+class Car:
+    TITLE="Chevralette"
+    COUNT=0
+    MIN=3000
+    MAX=10000
+    QN=100
+
+
+    def __init__(self,title,price,quantity):
+        self.price=self.quantity=0
+        if self.check_price(price) and self.check_quantity(quantity):
+            self.price = price
+            self.quantity=quantity
+        self.title=title
+        Car.COUNT+=1
+        print(f"Jami summa:{self.jami_sum(self.price,self.quantity)}  $")
+
+    def get_info(self):
+        return f"{self.title} uni narxi {self.price} miqdori {self.quantity}"
+
+    @classmethod
+    def check_price(cls,x):
+        return cls.MIN<x<cls.MAX
+
+    @classmethod
+    def check_quantity(cls,x):
+        return cls.QN>x
+
+
+    @staticmethod
+    def jami_sum(x,y):
+        return x*y
+
+
+    # def __new__(cls, *args, **kwargs):
+    #     obj=super().__new__(cls)
+    #     print(f"{obj}")
+    #     return obj
+
+
+
+    # def __str__(self):
+    #     return self.title
+
+
+obj=Car("Matiz",3000,30)
+obj2=Car("onix",9000,50)
+obj3=Car("Malibu",9000,90)
+print(obj3.get_info())
+
+
+
+
+# def alambalo(x):
+#     return 10<x<100
+#
+# print(alambalo(160))
