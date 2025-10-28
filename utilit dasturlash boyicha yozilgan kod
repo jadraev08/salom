@@ -1,0 +1,41 @@
+# # words=["apple","banana","kiwi","watermelon"]
+# #       word=nums=[]
+# #       for word in words:
+# #           nums.append(len(n))
+# #
+#         #
+#         # user=int(input('baho nechchi:'/
+#
+#
+# # soso=input('name').strip()
+# # # print(len(soso))
+#
+# groups=input("guruh azolarini yoshini , bilan yozing:")
+# groups=groups.split(',')
+# nums_group=list()
+# for g in groups:
+#     g=int(g)
+#     nums_group.append(g)
+#     print(nums_group)
+#
+#     yoshlar=list()
+#     qariyalar=list()
+#     for g in nums_group:
+#         if age<18:
+#             yoshlar.append(age)
+#         else:
+#             qariyalar.append(age)
+#
+#     answer=f'''
+# azolar soni;{len(nums_group)}
+# ortacha yosh:{sum(nums_group)/len(nums-group)}
+# eng kotta yosh:{max(nums_group)}
+# eng kichik yosh:{len(nums_group)}
+#     yoshlar soni:{len(yoshlar)}
+#     qariyalar soni:{len(qariyalar)}
+#
+#
+# '''
+# print(answer)
+#
+#
