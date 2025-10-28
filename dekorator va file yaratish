@@ -1,0 +1,155 @@
+  #file xatolarni bilish topish
+
+try:
+    n=0
+    res=100/n
+except ZeroDivisionError:
+    print("you can't divide by zero ")
+except ValueError:
+    print("enter a valid number")
+else:
+    print("result is",res)
+finally:
+    print("execution complete")
+
+
+
+
+
+   # bu yerda file yaratish oqish yozish va h.k
+
+
+
+# # # # # # # # myfile=open("hello.txt","w")
+# # # # # # # #
+# # # # # # # # myfile.close()
+# # # # # # # #
+# # # # # # #
+# # # # # # #
+# # # # # # # #
+# # # # # # # # with open(file,mode) as myfie:
+# # # # # # # #       #fayl bilan ishalsh
+# # # # # # #
+# # # # # # # #
+# # # # # # # # with open("hello.txt","w") as myfile:
+# # # # # # # #     print("fayl bilan ishlash")
+# # # # # # #
+# # # # # # #
+# # # # # # #
+# # # # # # #
+# # # # # #
+# # # # # #
+# # # # # # with open("file.txt","a") as myfile:
+# # # # # #     myfile.write("salom ozimga ozim")
+# # # # # #     myfile.write("\nsdfg")
+# # # # # #     print("fayl yoildi")
+# # # # # #
+# # # # # #
+# # # # # #
+# # # # # #
+# # # # # #
+# # # # # #
+# # # # # # lines=["hello word/n","hello work/n","hello word/n"]
+# # # # # # with open("hello.txt","a")as mylife:
+# # # # # #     print("/nhello docker.com",file=mylife)
+# # # # #
+# # # # #
+# # # # #
+# # # # #
+# # # # # #
+
+with open('file.txt','r') as file:
+    line=file.readline()
+    while line:
+        print(line,end="")
+        line=file.readline()
+    # a=new.read()
+    # print(a)
+
+#
+# # # #
+# # # # #
+# # # # # with open("hello.txt","r") as file:
+# # # # #     content=file.read()
+# # # # #     print(content)
+# # # # #
+# # # #
+# # # #
+# # # # with open("hello.txt","r") as file:
+# # # #     contents=file.readlines()
+# # # #     print(contents[0],end="")
+# # # #     print(contents[1],end="")
+# # # #     print(contents[2])
+# # #
+# # #
+# # #
+# # #
+# # #
+# # #
+# # #
+# # #
+# # # with open("hello.txt","w+") as file:
+# # #     file.write("Hello World/n")
+# # #     file.seek(6)
+# # #     content=file.read()
+# # #     print(content)
+# # #
+# # #
+# #
+# #
+# #
+# # #
+# # #
+# # #
+# # #
+# #
+# #
+# # message=input("Necha kishini taklif qilasz:")
+# # with open(file.txt,"a") as file:
+# #     file.write(message+"\n")
+# #
+# #
+# #
+# #     def read():
+# #         with open(file.txt,"r") as file:
+# #             for message in file:
+# #                 print(message,end="")
+# #                 print()
+# #
+# #
+# #
+# #                 while True:
+# #                     selection=int(input("1.yozish\t2.oqish\t3.chiqish \nTanlang:"))
+# #                     match selection:
+# #                         case 1:
+# #                              write()
+# #                         case 2:
+# #                              read()
+# #                         case 3:
+# #                              break
+# #                     case_:print("notogri tanlov")
+# #
+# #                     print("Dastur tugadi")
+#
+#
+#
+# message=input("kimlar keladi")
+# with open("new_file.txt","a+") as file:
+#   file.write(message+"\n")
+#
+#
+#
+#   def read():
+#       with open("new_file.txt","r") as file:
+#           for message in file:
+#               print(message,end="")
+#               print()
+#
+#
+#
+#               while True:
+#                   selection=int(input("1.kelganlar ismt\t2.qotib qolganlar soni\t3.ichmaganlar soni\nTanlang:"))
+#                   match selection:
+#
+#
+#                   print(selection,end="")
